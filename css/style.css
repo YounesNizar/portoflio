@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial;
+    color: black;
+    background-color: white;
+    background: linear-gradient(
+    to left,
+    rgba(143, 60, 255, 0.08),
+    white
+);
+
+}
+.navbar {
+    background-color: white;
+    padding: 15px 40px;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#title {
+    font-size: 24px;
+    color: purple;
+    display: inline;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    color: grey!important;
+}
+
+.nav-link {
+    color: grey !important;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: purple !important;
+}
+.introduction {
+    text-align: center;
+    display: inline-flex;
+    padding-left: 20%;
+    margin: 0 auto;
+}
+
+.intro {
+    width: 50%;
+    text-align: left;
+    padding-right: 20px;
+    margin-top: 10%;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: darkorchid;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid white;
+    margin-right: 20%;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    background-color: white;
+    border-top: 1px solid white;
+}
+
+.footer p {
+    color: rgb(112, 109, 109);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    width: 30px;
+    margin: 0 10px;
+}
+p{
+    font-size: 20px;
+    color: rgb(128, 125, 125);
+    margin-bottom: 20px;
+}
+.contact {
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid white;
+    border-radius: 15px;      
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);  
+}
+h2 {
+    text-align: center;
+    color: purple;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.contact label {
+    display: flex;              
+    margin-top: 20px;
+    margin-bottom: 8px;
+    color:rgb(59, 55, 58);
+}
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    background-color: white;
+}
+.results
+{
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    width: 80%;
+}
+#sendBtn {
+    margin-left: 50%;
+}
+#restartBtn {
+    margin-left: 50%;
+}
+.quiz{
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid white;
+    border-radius: 15px;      
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+.quiz input
+{
+    margin-right: 10px;
+}
